@@ -22,9 +22,9 @@ const HomePage = ()=>{
             const options = {
                 method:'GET',
                headers: {
-		        'x-rapidapi-key': 'b687e7ff24msh1911d17f708621dp1353c3jsnc6711cf8452c',
-		        'x-rapidapi-host': 'google-news13.p.rapidapi.com'
-	            }
+				'x-rapidapi-key': '6ba5744839msh9cddbcdd0e415f9p15ea4ajsn9f3ba7959c0b',
+				'x-rapidapi-host': 'google-news13.p.rapidapi.com'
+			}
             }
 
             try{
