@@ -21,10 +21,10 @@ const HomePage = ()=>{
             const apiUrl = `https://google-news13.p.rapidapi.com/${category}?lr=en-US`
             const options = {
                 method:'GET',
-                headers:{
-                    'x-rapidapi-key': '298dea7338msh6e2e601e78e6612p1d660bjsneb57ddf41aea',
-		            'x-rapidapi-host': 'google-news13.p.rapidapi.com'
-                },
+               headers: {
+		'x-rapidapi-key': '697fa5a5eemshb5a72baa54c9647p15ebeejsn10ea2936397a',
+		'x-rapidapi-host': 'google-news13.p.rapidapi.com'
+	}
             }
 
             try{
