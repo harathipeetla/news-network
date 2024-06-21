@@ -1,0 +1,41 @@
+.detail-view-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+
+}
+
+.title{
+    color: #02025b;
+    font-family:'Roboto';
+    font-size: 22px;
+    align-self: flex-start;
+
+}
+
+.thumbnail-image{
+    width: 470px;
+    height: 265px;
+}
+
+.read-full-btn{
+    padding: 6px 12px 6px 12px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #010128;
+}
+
+.publisher-name{
+    color: #0610ce;
+    
+}
+
+.publisher{
+    color: #02025b;
+    font-weight: bold;
+    font-style:italic;
+}
+

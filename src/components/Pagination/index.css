@@ -1,0 +1,15 @@
+.pagination-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.active{
+    background-color: #02022d;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    padding: 4px 8px 4px 8px;
+    font-weight:bold;
+}

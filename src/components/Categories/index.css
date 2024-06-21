@@ -1,0 +1,29 @@
+.categories-conatiner{
+    display: grid;
+    grid-template-columns:repeat(6, 1fr);
+    gap: 0.5em; 
+}
+
+.category-button{
+    padding: 6px 12px 6px 12px;
+    background-color: #01011f;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:1330px) {
+    .categories-conatiner{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+@media  screen and(max-width:900px) {
+
+    .categories-conatiner{
+        grid-template-columns: 1fr, 1fr;
+    }
+}
